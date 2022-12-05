@@ -15,6 +15,7 @@ defmodule Mix.Tasks.Advent do
     case day do
       "1" -> Advent.DayOne.run()
       "2" -> Advent.DayTwo.run()
+      "3" -> Advent.DayThree.run()
       _ -> Mix.shell().info("unknown or not implemented advent day")
     end
   end
