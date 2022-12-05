@@ -17,6 +17,7 @@ defmodule Mix.Tasks.Advent do
       "2" -> Advent.DayTwo.run()
       "3" -> Advent.DayThree.run()
       "4" -> Advent.DayFour.run()
+      "5" -> Advent.DayFive.run()
       _ -> Mix.shell().info("unknown or not implemented advent day")
     end
   end
