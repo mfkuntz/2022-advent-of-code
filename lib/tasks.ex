@@ -1,5 +1,4 @@
 defmodule Mix.Tasks.Advent do
-
   @shortdoc "Run an advent day"
 
   use Mix.Task
@@ -15,6 +14,7 @@ defmodule Mix.Tasks.Advent do
   defp run_day(day) do
     case day do
       "1" -> Advent.DayOne.run()
+      "2" -> Advent.DayTwo.run()
       _ -> Mix.shell().info("unknown or not implemented advent day")
     end
   end
